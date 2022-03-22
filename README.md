@@ -25,7 +25,7 @@ Add a `manifest.json` file to folder you want to audit. E.g.
 ```json
 {
   "files": {
-    "src/some_file.ts": {
+    "some_dir/some_file.ts": {
       "source": {
         "git": {
           "repo": "git@github.com:organization/repo.git",
@@ -51,7 +51,7 @@ If you make a patch to a file, you can include the expected diffs in your manife
 ```js
 {
   "files": {
-    "src/some_file.ts": {
+    "some_dir/some_file.ts": {
       "source": {
         "git": {
           "repo": "git@github.com:organization/repo.git",
