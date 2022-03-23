@@ -13,10 +13,13 @@
       "*": [ "dist/*" ]
     }
   },
+  "bin": {
+    "vendoza": "dist/index.js"
+  },
   "scripts": {
     "prepare": "tsc"
   },
-  "version": "1.0.0",
+  "version": "0.0.4",
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
